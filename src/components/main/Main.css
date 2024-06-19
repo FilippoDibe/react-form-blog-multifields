@@ -1,0 +1,28 @@
+.background {
+    background-color: rgba(0, 0, 0, 0.709);
+    width: 100vw;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    text-decoration: solid;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+
