@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FaTrash, FaEdit } from 'react-icons/fa';
 import './Form.css';
 
@@ -55,14 +55,6 @@ const Form = () => {
     } else {
       setArticles((curr) => [...curr, formData]);
     }
-    setFormData({
-      title: '',
-      image: '',
-      content: '',
-      category: '',
-      tags: [],
-      published: false
-    });
   };
 
   const deleteArticle = (index) => {
